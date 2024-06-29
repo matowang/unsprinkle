@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -50,9 +50,12 @@ table {
 
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  // font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 html {
@@ -71,6 +74,7 @@ html {
   --color-secondary: hsl(333deg 100% 45%);
   --color-text: var(--color-gray-1000);
   --color-background: white;
+
 }
 `;
 
